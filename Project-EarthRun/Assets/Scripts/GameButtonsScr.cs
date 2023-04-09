@@ -22,6 +22,11 @@ public class GameButtonsScr : MonoBehaviour
         //SceneManager.LoadScene("LoadingScene"); //SceneManager.LoadScene("Forest");
         SceneManager.LoadScene("TestScene");
     }
+    public void CreditScene() 
+    {
+        //SceneManager.LoadScene("LoadingScene"); //SceneManager.LoadScene("Forest");
+        SceneManager.LoadScene("CreditsScene");
+    }
 
     public void MainMenuScene() 
     {

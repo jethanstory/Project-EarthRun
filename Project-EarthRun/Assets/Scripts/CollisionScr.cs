@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionScr : MonoBehaviour
 {
@@ -37,6 +38,11 @@ public class CollisionScr : MonoBehaviour
 
 
             //Debug.Log("HIT");
+        }
+
+        if(other.gameObject.tag == "End") //on the object you want to pick up set the tag to be anything, in this case "object"
+        {
+            SceneManager.LoadScene("EndScene");
         }
     }
 }
