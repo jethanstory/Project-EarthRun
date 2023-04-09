@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class TrashCollectScr : MonoBehaviour
 {
     public int trashCollected;
     public GameObject collectSound;
+    public Text Txt;
+    // public TextMeshPro textmeshPro;
+    public TextMeshProUGUI textmeshPro;
 
     GameObject ObjectIwantToDestroy;
     // Start is called before the first frame update
@@ -18,6 +23,9 @@ public class TrashCollectScr : MonoBehaviour
     void Update()
     {
         
+
+        // Txt = GameObject.Find ("TrashCollected").GetComponent<TextMeshPro> ();
+        // Txt.text = TrashCollected.ToString();
     }
 
     private void OnTriggerEnter(Collider other) // to see when the player enters the collider
@@ -26,10 +34,13 @@ public class TrashCollectScr : MonoBehaviour
         {
             //canpickup = true;  //set the pick up bool to true
             ObjectIwantToDestroy = other.gameObject; //set the gameobject you collided with to one you can reference
-            Destroy(ObjectIwantToDestroy);
+            //Destroy(ObjectIwantToDestroy);
+            ObjectIwantToDestroy.SetActive(false);
             trashCollected += 1;
             collectSound.SetActive(false);
             collectSound.SetActive(true);
+            //textmeshPro = GameObject.Find ("TrashCollected").GetComponent<TextMeshPro>();
+            textmeshPro.text = trashCollected.ToString();
         }
     }
 }
