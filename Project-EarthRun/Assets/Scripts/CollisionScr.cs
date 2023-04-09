@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollisionScr : MonoBehaviour
 {
+    public GameObject GameOverCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,8 @@ public class CollisionScr : MonoBehaviour
             // //textmeshPro = GameObject.Find ("TrashCollected").GetComponent<TextMeshPro>();
             // textmeshPro.text = trashCollected.ToString();
             GameObject.Find("TrashbinGreen").GetComponent<PlayerMovement>().enabled = false;
+            GameOverCanvas.SetActive(true);
+            
             //Debug.Log("HIT");
         }
     }

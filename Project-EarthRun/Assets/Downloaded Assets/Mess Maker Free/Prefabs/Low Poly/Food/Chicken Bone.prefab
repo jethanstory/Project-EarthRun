@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3500325378512108279}
   - component: {fileID: -2865801498795934233}
   - component: {fileID: -884700656492612806}
+  - component: {fileID: -8738200821992645271}
   m_Layer: 0
   m_Name: Chicken Bone
   m_TagString: Trash
@@ -128,3 +129,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05710581, y: 0.053193595, z: 0.3822394}
   m_Center: {x: 0.0011220686, y: 0.00015739352, z: 0.0014124587}
+--- !u!122 &-8738200821992645271
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153803601918318987}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255608
+  m_Size: 0.2

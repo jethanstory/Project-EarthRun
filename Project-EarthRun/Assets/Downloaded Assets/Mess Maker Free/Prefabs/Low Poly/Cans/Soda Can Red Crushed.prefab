@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 421193627359730789}
   - component: {fileID: -6445860409259321406}
   - component: {fileID: 6798239547335367734}
+  - component: {fileID: -5742570414856213501}
   m_Layer: 0
   m_Name: Soda Can Red Crushed
   m_TagString: Trash
@@ -129,6 +130,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.18573658, y: 0.24873498, z: 0.2506091}
   m_Center: {x: 0, y: 0.049830053, z: -0.07703738}
+--- !u!122 &-5742570414856213501
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230034147011233538}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2
 --- !u!1 &7351139419438461794
 GameObject:
   m_ObjectHideFlags: 0

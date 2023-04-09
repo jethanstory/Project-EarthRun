@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 5694848083397519811}
   - component: {fileID: -3762348041308110882}
   - component: {fileID: -5827096832665862583}
+  - component: {fileID: 7605529224456145005}
   m_Layer: 0
   m_Name: Beer Can Green
   m_TagString: Trash
@@ -212,3 +213,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14992675, y: 0.15013245, z: 0.42165637}
   m_Center: {x: 0, y: 0.00007811561, z: -0.08474279}
+--- !u!122 &7605529224456145005
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847306447234913185}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2

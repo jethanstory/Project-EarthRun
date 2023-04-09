@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 5549337611823978834}
   - component: {fileID: -192665788361841660}
   - component: {fileID: -7297836437906078522}
+  - component: {fileID: -4033467097660012371}
   m_Layer: 0
   m_Name: Soda Can Orange
   m_TagString: Trash
@@ -212,3 +213,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14992675, y: 0.15006754, z: 0.28866696}
   m_Center: {x: 0, y: 0.000053472817, z: -0.058008447}
+--- !u!122 &-4033467097660012371
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013320978822667758}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2

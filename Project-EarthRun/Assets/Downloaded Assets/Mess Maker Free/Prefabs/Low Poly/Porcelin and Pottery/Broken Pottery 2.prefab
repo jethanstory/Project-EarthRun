@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -9203609031247136671}
   - component: {fileID: -807156697773569924}
   - component: {fileID: 7414878704911009565}
+  - component: {fileID: 5631220410711798817}
   m_Layer: 0
   m_Name: Broken Pottery 2
   m_TagString: Trash
@@ -128,3 +129,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.28057224, y: 0.39029938, z: 0.24163431}
   m_Center: {x: -0.06269722, y: -0.007932529, z: -0.002500534}
+--- !u!122 &5631220410711798817
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033160906336582249}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2

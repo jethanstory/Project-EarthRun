@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -4761349341009702115}
   - component: {fileID: 4641418113692385966}
   - component: {fileID: 8899310198090802011}
+  - component: {fileID: 3946057837097212810}
   m_Layer: 0
   m_Name: Beer Bottle Green with Label
   m_TagString: Trash
@@ -129,6 +130,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.112412974, y: 0.112412944, z: 0.48414254}
   m_Center: {x: 0, y: 0.00020546466, z: -0.0026914477}
+--- !u!122 &3946057837097212810
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631681890585385247}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253567
+  m_Size: 0.2
 --- !u!1 &6338368095915491944
 GameObject:
   m_ObjectHideFlags: 0

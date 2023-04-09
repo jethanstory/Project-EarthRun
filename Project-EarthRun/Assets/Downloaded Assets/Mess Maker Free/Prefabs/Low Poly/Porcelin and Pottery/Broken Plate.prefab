@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3209040615227436951}
   - component: {fileID: 3865291387400953968}
   - component: {fileID: -1799599685074057604}
+  - component: {fileID: 815109980903063303}
   m_Layer: 0
   m_Name: Broken Plate
   m_TagString: Trash
@@ -128,3 +129,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.76725006, y: 0.45140916, z: 0.053174928}
   m_Center: {x: 0, y: -0.15791422, z: -0.028543487}
+--- !u!122 &815109980903063303
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145317133613297876}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -209831514619703194}
   - component: {fileID: 7384885766146472034}
   - component: {fileID: 337831254670143288}
+  - component: {fileID: 9118364010760055293}
   m_Layer: 0
   m_Name: Beer Can Green Crushed
   m_TagString: Trash
@@ -129,6 +130,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19364859, y: 0.17827299, z: 0.3716838}
   m_Center: {x: -0.020970471, y: -0.006639283, z: -0.11152665}
+--- !u!122 &9118364010760055293
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417596192309181735}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2
 --- !u!1 &7270866687279011186
 GameObject:
   m_ObjectHideFlags: 0

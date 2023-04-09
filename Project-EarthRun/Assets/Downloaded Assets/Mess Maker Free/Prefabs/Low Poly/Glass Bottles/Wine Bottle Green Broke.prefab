@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -5444490036054981478}
   - component: {fileID: -2556964860005606473}
   - component: {fileID: -1463981150308156347}
+  - component: {fileID: 2196732794905237980}
   m_Layer: 0
   m_Name: Wine Bottle Green Broke
   m_TagString: Trash
@@ -128,3 +129,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19077358, y: 0.19153675, z: 0.41588396}
   m_Center: {x: -0.0000000037252903, y: 0.00048561767, z: -0.093963295}
+--- !u!122 &2196732794905237980
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924935055946310828}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253567
+  m_Size: 0.2

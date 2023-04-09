@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 7405215483735960207}
   - component: {fileID: -2216041187483325611}
   - component: {fileID: -5724403590722230583}
+  - component: {fileID: 8825843050705818584}
   m_Layer: 0
   m_Name: Soda Can Green
   m_TagString: Trash
@@ -212,3 +213,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14992675, y: 0.15006754, z: 0.28866696}
   m_Center: {x: 0, y: 0.000053472817, z: -0.058008447}
+--- !u!122 &8825843050705818584
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230034147011233538}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2

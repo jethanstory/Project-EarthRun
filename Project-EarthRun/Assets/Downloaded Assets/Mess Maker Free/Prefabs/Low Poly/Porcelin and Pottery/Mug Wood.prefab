@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2220605416351473817}
   - component: {fileID: 3109353249092467418}
   - component: {fileID: 3215466611232943256}
+  - component: {fileID: 7596086122070564774}
   m_Layer: 0
   m_Name: Mug Wood
   m_TagString: Trash
@@ -128,3 +129,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.26808822, y: 0.34000725, z: 0.36227942}
   m_Center: {x: 0.00046315044, y: 0.03459148, z: -0.03234116}
+--- !u!122 &7596086122070564774
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3093585832671737841}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278253823
+  m_Size: 0.2
