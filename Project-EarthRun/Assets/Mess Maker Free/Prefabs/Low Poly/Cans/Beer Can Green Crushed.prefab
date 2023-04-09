@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4866120144410347146}
   - component: {fileID: -209831514619703194}
   - component: {fileID: 7384885766146472034}
+  - component: {fileID: 337831254670143288}
   m_Layer: 0
   m_Name: Beer Can Green Crushed
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,6 +31,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3115046329690996927}
   m_Father: {fileID: 0}
@@ -54,6 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -113,6 +116,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19364859, y: 0.17827299, z: 0.3716838}
   m_Center: {x: -0.020970471, y: -0.006639283, z: -0.11152665}
+--- !u!65 &337831254670143288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417596192309181735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19364859, y: 0.17827299, z: 0.3716838}
+  m_Center: {x: -0.020970471, y: -0.006639283, z: -0.11152665}
 --- !u!1 &7270866687279011186
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +157,7 @@ Transform:
   m_LocalRotation: {x: 0.18976612, y: -0.39825636, z: 0.35493743, w: 0.8242573}
   m_LocalPosition: {x: -0.0555, y: -0.0094, z: 0.0158}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3202643572831470794}
   m_RootOrder: 0
@@ -164,6 +181,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6143752882634769237}
   - component: {fileID: 3227822608761214288}
   - component: {fileID: -8271502452497730446}
+  - component: {fileID: 7245500117170292021}
   m_Layer: 0
   m_Name: Half Eaten Cheeseburger
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,6 +31,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,6 +55,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -108,6 +111,19 @@ BoxCollider:
   m_GameObject: {fileID: 6143752882634769234}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16522089, y: 0.40676975, z: 0.2004343}
+  m_Center: {x: -0.13120724, y: -0.00027715415, z: -0.01596212}
+--- !u!65 &7245500117170292021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6143752882634769234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.16522089, y: 0.40676975, z: 0.2004343}
